@@ -1,0 +1,10 @@
+ctranslate2
+chardet # to squelch requests warning
+# torch is not needed when using ctranslate2
+# torch
+transformers
+sentencepiece
+wordsegment
+protobuf
+py2app
+zeroconf
