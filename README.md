@@ -8,7 +8,7 @@ MavisCorrector advertises its HTTP service as `_mavis-corrector._tcp` on the loc
 
 This application is generally embedded as a dependency inside the MacOS version of Mavis, but must be built separately using the Python toolchain.
 
-The main external dependency is `brew` - once that is available, the `build.sh` script will create download the model, compile the executable and correctly bless the bundle for MacOS.
+The main external dependency is `brew` - once that is available, the `build.sh` script will download the model, compile the executable and correctly bless the bundle for MacOS.
 
 ```
 ./build.sh release

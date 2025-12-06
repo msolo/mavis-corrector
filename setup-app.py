@@ -32,8 +32,8 @@ OPTIONS = {
     ],
     "extension": ".plugin",
     "plist": {
-        "CFBundleIdentifier": "com.hiredgoons.MavisCorrector.plugin",
-        "CFBundleVersion": "0.1.2",
+        "CFBundleIdentifier": "com.lazybearlabs.MavisCorrector.plugin",
+        "CFBundleVersion": "0.1.3",
         "Py2AppBuildOSRelease": os_release_version,
     },
     # This generates so much file copying that it makes spotlight
